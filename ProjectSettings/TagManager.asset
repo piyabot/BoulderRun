@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - Chaser
+  - Apple
+  - FinishPoint
   layers:
   - Default
   - TransparentFX

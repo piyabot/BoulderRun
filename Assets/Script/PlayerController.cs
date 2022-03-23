@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -12,10 +14,15 @@ public class PlayerController : MonoBehaviour
 
     bool onJumping = false;
 
+    [SerializeField] private int Apple = 0;
+    private int CurrentApple;
+    [SerializeField] private TextMeshProUGUI CollectedApple;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        CurrentApple = Apple;
+        CollectedApple.text = CurrentApple.ToString();
     }
 
     // Update is called once per frame
@@ -69,6 +76,14 @@ public class PlayerController : MonoBehaviour
         if(playerPosition.y >= contactPoint.y)
         {
             onJumping = false;
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Apple")
+        {
+            CurrentApple += 1;
         }
     }
 
