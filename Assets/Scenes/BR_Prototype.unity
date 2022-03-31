@@ -4817,7 +4817,7 @@ GameObject:
   - component: {fileID: 696470503}
   - component: {fileID: 696470502}
   - component: {fileID: 696470501}
-  - component: {fileID: 696470505}
+  - component: {fileID: 696470506}
   m_Layer: 0
   m_Name: Sphere (5)
   m_TagString: Apple
@@ -4913,7 +4913,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 696470499}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &696470505
+--- !u!114 &696470506
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4925,7 +4925,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b792f2c06db68b45b13ef6590aa8236, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 100
 --- !u!1 &698296272
 GameObject:
   m_ObjectHideFlags: 0
@@ -5414,7 +5414,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4286809087
-  m_fontColor: {r: 1, g: 0.514151, b: 0.514151, a: 1}
+  m_fontColor: {r: 1, g: 0.28773582, b: 0.28773582, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -12471,6 +12471,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1858282991336417605, guid: 225337a3301fff541b7375808c8f2ca6, type: 3}
+      propertyPath: health
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4829186332625530808, guid: 225337a3301fff541b7375808c8f2ca6, type: 3}
       propertyPath: m_Name
       value: Box
