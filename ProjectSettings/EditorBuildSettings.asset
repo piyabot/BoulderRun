@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/BoulderRun/MainMenu.unity
+    guid: 6703dab97cb465c4a9ad50a87ca2b48d
+  - enabled: 1
+    path: Assets/Scenes/BoulderRun/World_1/Lv1_1.unity
+    guid: 6687943fb7e68fb4db99d9e0d2954627
+  - enabled: 1
+    path: Assets/Scenes/BoulderRun/World_1/Lv1_2.unity
+    guid: 982552c5c4ce86a45907dac4589fb4cd
+  - enabled: 1
+    path: Assets/Scenes/BoulderRun/World_1/Lv1_3.unity
+    guid: 2d1ffc11b31c07c4abd9294a82e44a18
+  - enabled: 1
+    path: Assets/Scenes/BoulderRun/World_1/Lv1_4.unity
+    guid: 03e31e90aa488184bb08d3477dfbeb6f
+  - enabled: 1
+    path: Assets/Scenes/BoulderRun/World_1/Lv1_5.unity
+    guid: f02e1d6dfc75f4c4a85b6a2a7ea80c3d
+  - enabled: 1
     path: Assets/Scenes/BoulderRun/BR_Prototype.unity
     guid: 10b0fafc72537e344b02c793c6ff5d0b
   m_configObjects: {}

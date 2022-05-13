@@ -7,9 +7,9 @@ public class AttackArea : MonoBehaviour
     private int dmg = 1;
     private void OnTriggerEnter(Collider collider)
     {
-        if (collider.GetComponent<Health>() != null)
+        if (collider.GetComponent<Crate>() != null)
         {
-            Health health = collider.GetComponent<Health>();
+            Crate health = collider.GetComponent<Crate>();
             health.Damage(dmg);
         }
     }

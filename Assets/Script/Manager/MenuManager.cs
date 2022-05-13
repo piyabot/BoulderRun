@@ -11,7 +11,7 @@ public class MenuManager : MonoBehaviour
     }
     public void mainmenu()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("MainMenu");
     }
     public void level_select()
     {
@@ -22,12 +22,24 @@ public class MenuManager : MonoBehaviour
         { Time.timeScale = 1; }
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-    public void nextlevel()
+    public void Lv1_1()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Lv1_1");
     }
-    public void Play()
+    public void Lv1_2()
     {
-        SceneManager.LoadScene("Play");
+        SceneManager.LoadScene("Lv1_2");
+    }
+    public void Lv1_3()
+    {
+        SceneManager.LoadScene("Lv1_3");
+    }
+    public void Lv1_4()
+    {
+        SceneManager.LoadScene("Lv1_4");
+    }
+    public void Lv1_5()
+    {
+        SceneManager.LoadScene("Lv1_5");
     }
 }

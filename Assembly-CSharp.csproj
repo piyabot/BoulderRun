@@ -57,13 +57,17 @@
     <Compile Include="Assets\First Fantasy Pack\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo00.cs" />
     <Compile Include="Assets\First Fantasy Pack\GUI Animator\GUI Animator FREE\Demo Basic (CSharp)\Scripts\GUIAnimatorFREEDemo.cs" />
     <Compile Include="Assets\First Fantasy Pack\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_OpenOtherScene.cs" />
+    <Compile Include="Assets\Script\Player\PlayerAttack.cs" />
     <Compile Include="Assets\First Fantasy Pack\First Fantasy for Mobile\Scripts\GE_FF_FloatObject.cs" />
+    <Compile Include="Assets\Script\DecayPlatform.cs" />
     <Compile Include="Assets\First Fantasy Pack\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo03.cs" />
     <Compile Include="Assets\First Fantasy Pack\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo02.cs" />
     <Compile Include="Assets\First Fantasy Pack\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo01.cs" />
+    <Compile Include="Assets\Script\Player\Crate.cs" />
     <Compile Include="Assets\First Fantasy Pack\GE Common Assets\GE Orbit Camera\Scripts\GE_OrbitCameraUI.cs" />
     <Compile Include="Assets\First Fantasy Pack\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo07.cs" />
     <Compile Include="Assets\Script\Manager\MenuManager.cs" />
+    <Compile Include="Assets\Script\Player\AttackArea.cs" />
     <Compile Include="Assets\First Fantasy Pack\First Fantasy for Mobile\Scripts\GE_FF_RandomMoveOnTerrain.cs" />
     <Compile Include="Assets\First Fantasy Pack\First Fantasy for Mobile\Scripts\GE_FF_Controller.cs" />
     <Compile Include="Assets\First Fantasy Pack\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo04.cs" />
@@ -73,6 +77,7 @@
     <Compile Include="Assets\BasicWater_URP\Simple Water Shader\Info\Scripts\Readme.cs" />
     <Compile Include="Assets\Script\Obstacle\Chaser.cs" />
     <Compile Include="Assets\Script\Obstacle\Hole.cs" />
+    <Compile Include="Assets\Script\Manager\LevelDisplay.cs" />
     <Compile Include="Assets\First Fantasy Pack\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo06.cs" />
     <Compile Include="Assets\First Fantasy Pack\First Fantasy for Mobile\Scripts\GE_FF_CloudFlow.cs" />
     <Compile Include="Assets\First Fantasy Pack\First Fantasy for Mobile\Scripts\GE_FF_FollowObject.cs" />
@@ -84,9 +89,9 @@
     <Compile Include="Assets\First Fantasy Pack\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_DemoPlaySound.cs" />
     <Compile Include="Assets\Script\Map\FinishPoint.cs" />
     <Compile Include="Assets\Script\Map\MovingPlatform.cs" />
-    <Compile Include="Assets\Script\Player\PlayerAttack.cs" />
-    <Compile Include="Assets\Script\Player\AttackArea.cs" />
-    <Compile Include="Assets\Script\Player\Health.cs" />
+    <Compile Include="Assets\Script\Manager\LevelSelection.cs" />
+    <Compile Include="Assets\Script\Manager\NextLevel.cs" />
+    <Compile Include="Assets\Script\Manager\DeletePlayerPref.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
