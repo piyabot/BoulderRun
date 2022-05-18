@@ -20,14 +20,15 @@ public class PlayerController : MonoBehaviour
 
     public GameObject pause;
 
-    // Start is called before the first frame update
+ 
     void Start()
     {
+        { Time.timeScale = 1; }
         CurrentApple = Apple;
         CollectedApple.text = CurrentApple.ToString();
     }
 
-    // Update is called once per frame
+  
     void Update()
     {
         Update_Movement();
@@ -48,7 +49,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void Update_Movement()
+    void Update_Movement() // Player movement
     {
         Vector3 resultVelocity = new Vector3(0, physicsSystem.velocity.y, 0);
 
@@ -113,7 +114,7 @@ public class PlayerController : MonoBehaviour
         return centerOfContactPoint;
     }
 
-    public void CollectApple()
+    public void CollectApple() // Just like the name, collect apple system
     {
         CurrentApple += 1;
         CollectedApple.text = CurrentApple.ToString();

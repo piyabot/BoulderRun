@@ -23,7 +23,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BoulderRun/World_1/Lv1_5.unity
     guid: f02e1d6dfc75f4c4a85b6a2a7ea80c3d
-  - enabled: 1
-    path: Assets/Scenes/BoulderRun/BR_Prototype.unity
-    guid: 10b0fafc72537e344b02c793c6ff5d0b
   m_configObjects: {}

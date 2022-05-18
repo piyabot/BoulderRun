@@ -27,7 +27,7 @@ public class Chaser : MonoBehaviour
         AI.updateRotation = false;
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other) // Hit player then Lose screen pop up
     {
         if (other.tag == "Player")
         {

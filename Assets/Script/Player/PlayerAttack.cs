@@ -10,21 +10,19 @@ public class PlayerAttack : MonoBehaviour
 
     private float timeToAttack = 0.25f;
     private float timer = 0f;
-
-    // Start is called before the first frame update
+   
     void Start()
     {
         attackArea = transform.GetChild(0).gameObject;
     }
 
-    // Update is called once per frame
-    void Update()
+    void Update() // Key for attacking
     {
         if(Input.GetKeyDown(KeyCode.E))
         {
             Attack();
         }
-        if(attacking)
+        if(attacking) // Stop the attack when attack is finished
         {
             timer += Time.deltaTime;
             if(timer >= timeToAttack)
@@ -36,7 +34,7 @@ public class PlayerAttack : MonoBehaviour
         }
     }
 
-    private void Attack()
+    private void Attack() // Set attack to true
     {
         attacking = true;
         attackArea.SetActive(attacking);

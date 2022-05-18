@@ -7,13 +7,13 @@ public class FinishPoint : MonoBehaviour
 {
     public int nextSceneLoad;
     public GameObject Win;
-   
+
     void Start()
     {
         nextSceneLoad = SceneManager.GetActiveScene().buildIndex + 1;
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other) //Load next level and unlock that level
     {
         if (other.tag == "Player")
         {

@@ -10,8 +10,7 @@ public class Apple : MonoBehaviour
         {
             if (other.gameObject.TryGetComponent(out PlayerController collect));
             {
-                collect.CollectApple();
-                Debug.Log("A");
+                collect.CollectApple();         
             }
             Destroy(gameObject);
         }

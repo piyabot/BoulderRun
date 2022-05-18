@@ -55,6 +55,8 @@
   <ItemGroup>
     <Compile Include="Assets\First Fantasy Pack\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo08.cs" />
     <Compile Include="Assets\First Fantasy Pack\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo00.cs" />
+    <Compile Include="Assets\Script\Manager\LevelSelection.cs" />
+    <Compile Include="Assets\Script\Manager\DeletePlayerPref.cs" />
     <Compile Include="Assets\First Fantasy Pack\GUI Animator\GUI Animator FREE\Demo Basic (CSharp)\Scripts\GUIAnimatorFREEDemo.cs" />
     <Compile Include="Assets\First Fantasy Pack\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_OpenOtherScene.cs" />
     <Compile Include="Assets\Script\Player\PlayerAttack.cs" />
@@ -89,9 +91,8 @@
     <Compile Include="Assets\First Fantasy Pack\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_DemoPlaySound.cs" />
     <Compile Include="Assets\Script\Map\FinishPoint.cs" />
     <Compile Include="Assets\Script\Map\MovingPlatform.cs" />
-    <Compile Include="Assets\Script\Manager\LevelSelection.cs" />
     <Compile Include="Assets\Script\Manager\NextLevel.cs" />
-    <Compile Include="Assets\Script\Manager\DeletePlayerPref.cs" />
+    <Compile Include="Assets\Script\Map\LastFinishPoint.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

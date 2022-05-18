@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
-{
+{   
     public void exit()
     {
         Application.Quit();
@@ -41,5 +41,9 @@ public class MenuManager : MonoBehaviour
     public void Lv1_5()
     {
         SceneManager.LoadScene("Lv1_5");
+    }
+    public void nextlevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

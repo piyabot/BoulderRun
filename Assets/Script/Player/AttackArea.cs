@@ -5,7 +5,7 @@ using UnityEngine;
 public class AttackArea : MonoBehaviour
 {
     private int dmg = 1;
-    private void OnTriggerEnter(Collider collider)
+    private void OnTriggerEnter(Collider collider) // Player's attack damage
     {
         if (collider.GetComponent<Crate>() != null)
         {

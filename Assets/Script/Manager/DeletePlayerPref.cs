@@ -11,7 +11,7 @@ public class DeletePlayerPref : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void Update() // For reset player progress
     {
         if(Input.GetKeyDown(KeyCode.O))
         {
