@@ -15,11 +15,11 @@ C:/Users/ADMIN/Documents/GitHub/BoulderRun
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50568
+64546
 Successfully changed project path to: C:/Users/ADMIN/Documents/GitHub/BoulderRun
 C:/Users/ADMIN/Documents/GitHub/BoulderRun
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 67.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 63.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,73 +35,73 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001462 seconds.
+Registered in 0.001405 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 62.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.486 seconds
+- Completed reload, in  0.494 seconds
 Domain Reload Profiling:
-	ReloadAssembly (486ms)
+	ReloadAssembly (494ms)
 		BeginReloadAssembly (41ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (383ms)
+		EndReloadAssembly (395ms)
 			LoadAssemblies (39ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (122ms)
+			SetupTypeCache (125ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (159ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (165ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (59ms)
+				RefreshPlugins (62ms)
 				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (61ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				ProcessInitializeOnLoadAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004281 seconds.
+Registered in 0.004364 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 64.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.058 seconds
+- Completed reload, in  1.070 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1058ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (1072ms)
+		BeginReloadAssembly (117ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (894ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (905ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
+			SetupTypeCache (288ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (363ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (392ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (60ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (206ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -110,14 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3709 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.2 MB.
+Unloading 3710 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.1 MB.
 System memory in use after: 181.4 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 4169.
-Total: 3.128300 ms (FindLiveObjects: 0.272300 ms CreateObjectMapping: 0.182700 ms MarkObjects: 2.580200 ms  DeleteObjects: 0.092400 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 4170.
+Total: 3.532800 ms (FindLiveObjects: 0.328300 ms CreateObjectMapping: 0.243500 ms MarkObjects: 2.861900 ms  DeleteObjects: 0.098400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,169 +131,118 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Sound
-  artifactKey: Guid(c3b55b2e37c17b44a87e37e3d66d600a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound using Guid(c3b55b2e37c17b44a87e37e3d66d600a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bb3726d5d6f62701a6d3da5b424ce4') in 0.009073 seconds 
-  Import took 0.013999 seconds .
+  path: Assets/Art/TU logo.png
+  artifactKey: Guid(3fb8c11df53bcda4d9a77e943fedeeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/TU logo.png using Guid(3fb8c11df53bcda4d9a77e943fedeeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235f92a1d3dc842ae41e9fadda03916d') in 0.067505 seconds 
+  Import took 0.072397 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.960569 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Sounds/Button1.wav
-  artifactKey: Guid(4be72841d4ca630469c31b4a83df7426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Sounds/Button1.wav using Guid(4be72841d4ca630469c31b4a83df7426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca932795cd40117c608d38fc23bd3f3c') in 0.216748 seconds 
-  Import took 0.224254 seconds .
+  Time since last request: 3.146065 seconds.
+  path: Assets/Art/TU logo.png
+  artifactKey: Guid(3fb8c11df53bcda4d9a77e943fedeeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/TU logo.png using Guid(3fb8c11df53bcda4d9a77e943fedeeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d05125bc5a03768d6be3f8eff5b7521') in 0.046154 seconds 
+  Import took 0.051760 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Sounds/MoveOut.wav
-  artifactKey: Guid(244ada167dff9624dbd4a01671503a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Sounds/MoveOut.wav using Guid(244ada167dff9624dbd4a01671503a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35797bbe1d3f73847e63c874f317818a') in 0.015681 seconds 
-  Import took 0.022159 seconds .
+  Time since last request: 11.776366 seconds.
+  path: Assets/Scenes/BoulderRun/World_1/Lv1_3.unity
+  artifactKey: Guid(2d1ffc11b31c07c4abd9294a82e44a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BoulderRun/World_1/Lv1_3.unity using Guid(2d1ffc11b31c07c4abd9294a82e44a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d0b293d46d027f9da453464c24b02b') in 0.005194 seconds 
+  Import took 0.010364 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/First Fantasy Pack/GE Common Assets/Sounds/SFX_Button_Click.wav
-  artifactKey: Guid(1337680beb813224e9602258076b140c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GE Common Assets/Sounds/SFX_Button_Click.wav using Guid(1337680beb813224e9602258076b140c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0c9fb4961de9bd45b7872c080befbb') in 0.013197 seconds 
-  Import took 0.018880 seconds .
+  Time since last request: 1.765970 seconds.
+  path: Assets/Scenes/BoulderRun/World_1/Lv1_4.unity
+  artifactKey: Guid(03e31e90aa488184bb08d3477dfbeb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BoulderRun/World_1/Lv1_4.unity using Guid(03e31e90aa488184bb08d3477dfbeb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56eda3e983fb2499290cd32164dd9959') in 0.006333 seconds 
+  Import took 0.011490 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/First Fantasy Pack/GE Common Assets/Sounds/SFX_Button_Back.wav
-  artifactKey: Guid(a817515d8a81d0d4cbd2fd54d2771a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GE Common Assets/Sounds/SFX_Button_Back.wav using Guid(a817515d8a81d0d4cbd2fd54d2771a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e3ad91b906fa68b1365ac403ea3f40') in 0.012635 seconds 
-  Import took 0.017507 seconds .
+  Time since last request: 0.484403 seconds.
+  path: Assets/Scenes/BoulderRun/World_1/Lv1_5.unity
+  artifactKey: Guid(f02e1d6dfc75f4c4a85b6a2a7ea80c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BoulderRun/World_1/Lv1_5.unity using Guid(f02e1d6dfc75f4c4a85b6a2a7ea80c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09fb93af382965d7bf36447c041b8fd') in 0.004965 seconds 
+  Import took 0.010229 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Sounds/Title.wav
-  artifactKey: Guid(aac1757c6eac4fa4b9bfbaec68983995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Sounds/Title.wav using Guid(aac1757c6eac4fa4b9bfbaec68983995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a1c995028dfdc478df8ad3117ff03a') in 0.012280 seconds 
-  Import took 0.016984 seconds .
+  Time since last request: 2.133736 seconds.
+  path: Assets/Scenes/BoulderRun/World_1/Lv1_1.unity
+  artifactKey: Guid(6687943fb7e68fb4db99d9e0d2954627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BoulderRun/World_1/Lv1_1.unity using Guid(6687943fb7e68fb4db99d9e0d2954627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac71157b3f3885039b383fdbe6a10f3') in 0.004743 seconds 
+  Import took 0.009978 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Sound/Death sfx.wav
-  artifactKey: Guid(c73e47edc9f440f4d8809e2902df655a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Death sfx.wav using Guid(c73e47edc9f440f4d8809e2902df655a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f1406193fb53507363859714da7fe6') in 0.009980 seconds 
-  Import took 0.014719 seconds .
+  Time since last request: 0.669653 seconds.
+  path: Assets/Scenes/BoulderRun/World_1/Lv1_2.unity
+  artifactKey: Guid(982552c5c4ce86a45907dac4589fb4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BoulderRun/World_1/Lv1_2.unity using Guid(982552c5c4ce86a45907dac4589fb4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6ddeba16d573c12e0364af1fddb314') in 0.005183 seconds 
+  Import took 0.010129 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Sound/Crash Twinsanity - Theme Song.wav
-  artifactKey: Guid(a0368255354d69748be1652f32854459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Crash Twinsanity - Theme Song.wav using Guid(a0368255354d69748be1652f32854459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae67c42373cc823a020811b0abe9cf09') in 0.008819 seconds 
-  Import took 0.013530 seconds .
+  Time since last request: 173.702692 seconds.
+  path: Assets/Scenes/BoulderRun/World_1/Lv1_5.unity
+  artifactKey: Guid(f02e1d6dfc75f4c4a85b6a2a7ea80c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BoulderRun/World_1/Lv1_5.unity using Guid(f02e1d6dfc75f4c4a85b6a2a7ea80c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6382c1b356ca926dc2c768cf07a272b5') in 0.005104 seconds 
+  Import took 0.010949 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Sounds/MoveIn.wav
-  artifactKey: Guid(02f11732217659f4bae466807f5bddd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Sounds/MoveIn.wav using Guid(02f11732217659f4bae466807f5bddd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9b622696e6df19c146905abc254d92') in 0.011994 seconds 
-  Import took 0.016787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Sounds/Button2.wav
-  artifactKey: Guid(1a4b835619858d245a3ece06a63daf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Sounds/Button2.wav using Guid(1a4b835619858d245a3ece06a63daf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc017b101fa627012fddea53116ba54') in 0.011681 seconds 
-  Import took 0.016333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.850222 seconds.
-  path: Assets/Script/Manager/SoundManager.cs
-  artifactKey: Guid(9d55e8701c3db2f4b8fd538e6972ae88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Manager/SoundManager.cs using Guid(9d55e8701c3db2f4b8fd538e6972ae88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51364f1933932f0eda0c8cb4fa3253e8') in 0.007484 seconds 
-  Import took 0.013502 seconds .
+  Time since last request: 18.564154 seconds.
+  path: Assets/Scenes/BoulderRun/World_1/Lv1_1.unity
+  artifactKey: Guid(6687943fb7e68fb4db99d9e0d2954627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BoulderRun/World_1/Lv1_1.unity using Guid(6687943fb7e68fb4db99d9e0d2954627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64219cc504d7f7f9980138301645ad1') in 0.004686 seconds 
+  Import took 0.010354 seconds .
 
 ========================================================================
 Received Prepare
+Refreshing native plugins compatible for Editor in 3.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.8 MB.
+System memory in use after: 103.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4176.
+Total: 3.414200 ms (FindLiveObjects: 0.306400 ms CreateObjectMapping: 0.214900 ms MarkObjects: 2.881200 ms  DeleteObjects: 0.011300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004041 seconds.
+Registered in 0.004170 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.058 seconds
+- Completed reload, in  0.921 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1058ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (921ms)
+		BeginReloadAssembly (99ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (899ms)
-			LoadAssemblies (73ms)
+		EndReloadAssembly (774ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (283ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (332ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (220ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3556 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.9 MB.
-System memory in use after: 173.1 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4180.
-Total: 3.168300 ms (FindLiveObjects: 0.316100 ms CreateObjectMapping: 0.201400 ms MarkObjects: 2.632700 ms  DeleteObjects: 0.017100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004250 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.925 seconds
-Domain Reload Profiling:
-	ReloadAssembly (925ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (771ms)
-			LoadAssemblies (71ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (274ms)
+			SetupTypeCache (276ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (36ms)
 			SetupLoadedEditorAssemblies (294ms)
@@ -302,149 +251,21 @@ Domain Reload Profiling:
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (200ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3556 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.9 MB.
-System memory in use after: 173.2 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4182.
-Total: 2.899500 ms (FindLiveObjects: 0.288500 ms CreateObjectMapping: 0.182600 ms MarkObjects: 2.414900 ms  DeleteObjects: 0.012800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 459.779897 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c3d4e74c621f5d4b43a37ec96a46b2') in 0.232856 seconds 
-  Import took 0.240033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.416658 seconds.
-  path: Assets/PreFab/Decay Plat.prefab
-  artifactKey: Guid(276c95e42a10dee4e9d33911c64bb503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PreFab/Decay Plat.prefab using Guid(276c95e42a10dee4e9d33911c64bb503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb58185d341888ea32c56e411a48f8e') in 0.015477 seconds 
-  Import took 0.020640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.579478 seconds.
-  path: Assets/PreFab/Chaser.prefab
-  artifactKey: Guid(936d7812dad10c24580b40338796c98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PreFab/Chaser.prefab using Guid(936d7812dad10c24580b40338796c98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cb8cc6221d656d57c388c3d8b57abb') in 0.036542 seconds 
-  Import took 0.041502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.410022 seconds.
-  path: Assets/Scenes/BoulderRun/MainMenu.unity
-  artifactKey: Guid(6703dab97cb465c4a9ad50a87ca2b48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BoulderRun/MainMenu.unity using Guid(6703dab97cb465c4a9ad50a87ca2b48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46657e71e06af8c71fc8fe252218df26') in 0.005117 seconds 
-  Import took 0.010030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.706311 seconds.
-  path: Assets/Art/Boulder.mat
-  artifactKey: Guid(9c12b2f305039754582e37b2a01a1012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Boulder.mat using Guid(9c12b2f305039754582e37b2a01a1012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e9b7d6d0d354bedad5cb07484c2d11') in 0.017214 seconds 
-  Import took 0.023482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 114.266081 seconds.
-  path: Assets/PreFab/Player.prefab
-  artifactKey: Guid(e2cea5d7e8226f343aac66b523fe9e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PreFab/Player.prefab using Guid(e2cea5d7e8226f343aac66b523fe9e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a16358599c77204648869998b5f368b') in 0.014341 seconds 
-  Import took 0.019420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.870286 seconds.
-  path: Assets/Art/Green.mat
-  artifactKey: Guid(6d9489046d94e6e47937e7de15763340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Green.mat using Guid(6d9489046d94e6e47937e7de15763340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c70c5ea5e61134fd3b6b3ed79c19937') in 0.010105 seconds 
-  Import took 0.015761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.481288 seconds.
-  path: Assets/Scenes/BoulderRun/World_1/Lv1_1
-  artifactKey: Guid(46450ae9ed474604395293fc28f3f95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BoulderRun/World_1/Lv1_1 using Guid(46450ae9ed474604395293fc28f3f95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21504415219bfcc448f7340041bb639f') in 0.005256 seconds 
-  Import took 0.010126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.526298 seconds.
-  path: Assets/Scenes/BoulderRun/World_1/Lv1_1.unity
-  artifactKey: Guid(6687943fb7e68fb4db99d9e0d2954627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BoulderRun/World_1/Lv1_1.unity using Guid(6687943fb7e68fb4db99d9e0d2954627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ea954d2cb2fce6523713602a71a314') in 0.005170 seconds 
-  Import took 0.010116 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004324 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.962 seconds
-Domain Reload Profiling:
-	ReloadAssembly (962ms)
-		BeginReloadAssembly (121ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (791ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (272ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (293ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadAttributes (202ms)
 				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3556 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.6 MB.
-System memory in use after: 175.9 MB.
+Unloading 3557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.8 MB.
+System memory in use after: 173.1 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4260.
-Total: 2.967900 ms (FindLiveObjects: 0.271800 ms CreateObjectMapping: 0.170900 ms MarkObjects: 2.510800 ms  DeleteObjects: 0.013000 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4178.
+Total: 3.167100 ms (FindLiveObjects: 0.271600 ms CreateObjectMapping: 0.210100 ms MarkObjects: 2.669600 ms  DeleteObjects: 0.015100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -457,141 +278,37 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 150.148133 seconds.
+  path: Assets/Scenes/BoulderRun/World_1/Lv1_1.unity
+  artifactKey: Guid(6687943fb7e68fb4db99d9e0d2954627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BoulderRun/World_1/Lv1_1.unity using Guid(6687943fb7e68fb4db99d9e0d2954627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe72703e3bcff6c78ff5d003c7d581b') in 0.039903 seconds 
+  Import took 0.044716 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004211 seconds.
+Registered in 0.004373 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.959 seconds
+- Completed reload, in  0.923 seconds
 Domain Reload Profiling:
-	ReloadAssembly (960ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (923ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (805ms)
-			LoadAssemblies (77ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (779ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (287ms)
+			SetupTypeCache (278ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (291ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (200ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3556 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.7 MB.
-System memory in use after: 175.9 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4262.
-Total: 2.945400 ms (FindLiveObjects: 0.270900 ms CreateObjectMapping: 0.181100 ms MarkObjects: 2.480300 ms  DeleteObjects: 0.012400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004640 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.932 seconds
-Domain Reload Profiling:
-	ReloadAssembly (932ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (781ms)
-			LoadAssemblies (69ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (270ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (291ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (200ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3556 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.7 MB.
-System memory in use after: 175.9 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4264.
-Total: 2.962200 ms (FindLiveObjects: 0.274500 ms CreateObjectMapping: 0.176100 ms MarkObjects: 2.496100 ms  DeleteObjects: 0.014600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004356 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.941 seconds
-Domain Reload Profiling:
-	ReloadAssembly (942ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (784ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (268ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
 			SetupLoadedEditorAssemblies (295ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
@@ -603,16 +320,16 @@ Domain Reload Profiling:
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3556 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.7 MB.
-System memory in use after: 175.9 MB.
+Unloading 3557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.9 MB.
+System memory in use after: 173.1 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4266.
-Total: 2.974800 ms (FindLiveObjects: 0.275800 ms CreateObjectMapping: 0.193800 ms MarkObjects: 2.489500 ms  DeleteObjects: 0.015100 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4180.
+Total: 3.286900 ms (FindLiveObjects: 0.345500 ms CreateObjectMapping: 0.231100 ms MarkObjects: 2.694300 ms  DeleteObjects: 0.015300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -625,50 +342,66 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 33.842594 seconds.
+  path: Assets/Scenes/BoulderRun/World_1/Lv1_2.unity
+  artifactKey: Guid(982552c5c4ce86a45907dac4589fb4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BoulderRun/World_1/Lv1_2.unity using Guid(982552c5c4ce86a45907dac4589fb4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9600351965a3b5fe93c6b9461d0e9b6') in 0.026049 seconds 
+  Import took 0.030742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Scenes/BoulderRun/World_1/Lv1_1.unity
+  artifactKey: Guid(6687943fb7e68fb4db99d9e0d2954627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BoulderRun/World_1/Lv1_1.unity using Guid(6687943fb7e68fb4db99d9e0d2954627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34edab94adac2100784347932e72c2f7') in 0.001846 seconds 
+  Import took 0.006521 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004224 seconds.
+Registered in 0.004246 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.970 seconds
+- Completed reload, in  0.904 seconds
 Domain Reload Profiling:
-	ReloadAssembly (971ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (905ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (809ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (766ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (273ms)
+			SetupTypeCache (271ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (306ms)
+			SetupLoadedEditorAssemblies (291ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (209ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3556 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.7 MB.
-System memory in use after: 175.9 MB.
+Unloading 3557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.9 MB.
+System memory in use after: 173.2 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4268.
-Total: 3.584500 ms (FindLiveObjects: 0.326600 ms CreateObjectMapping: 0.243800 ms MarkObjects: 2.994100 ms  DeleteObjects: 0.019100 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4182.
+Total: 3.160300 ms (FindLiveObjects: 0.270200 ms CreateObjectMapping: 0.166400 ms MarkObjects: 2.707300 ms  DeleteObjects: 0.015200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -681,50 +414,74 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 23.372228 seconds.
+  path: Assets/Scenes/BoulderRun/World_1/Lv1_5.unity
+  artifactKey: Guid(f02e1d6dfc75f4c4a85b6a2a7ea80c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BoulderRun/World_1/Lv1_5.unity using Guid(f02e1d6dfc75f4c4a85b6a2a7ea80c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493f9218fafd040dd9ed65af28fbf94d') in 0.022378 seconds 
+  Import took 0.027220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.988529 seconds.
+  path: Assets/Scenes/BoulderRun/MainMenu.unity
+  artifactKey: Guid(6703dab97cb465c4a9ad50a87ca2b48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BoulderRun/MainMenu.unity using Guid(6703dab97cb465c4a9ad50a87ca2b48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3888197fd2b73e5396d738240d05b0') in 0.004878 seconds 
+  Import took 0.010171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.991964 seconds.
+  path: Assets/Art/idd cdt logo.jpg
+  artifactKey: Guid(a18d0bee661c15949a4dea65c28bbff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/idd cdt logo.jpg using Guid(a18d0bee661c15949a4dea65c28bbff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b6abfcada17e25100ac1dab3e9dfbf') in 0.038609 seconds 
+  Import took 0.044188 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004133 seconds.
+Registered in 0.004268 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.036 seconds
+- Completed reload, in  0.916 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1037ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (916ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (879ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (775ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (280ms)
+			SetupTypeCache (275ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (354ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (296ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (243ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3556 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.7 MB.
-System memory in use after: 175.9 MB.
+Unloading 3557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.0 MB.
+System memory in use after: 173.2 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4270.
-Total: 3.010400 ms (FindLiveObjects: 0.282200 ms CreateObjectMapping: 0.187900 ms MarkObjects: 2.523500 ms  DeleteObjects: 0.016100 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4185.
+Total: 2.905600 ms (FindLiveObjects: 0.255300 ms CreateObjectMapping: 0.171700 ms MarkObjects: 2.463800 ms  DeleteObjects: 0.014200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -738,50 +495,106 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 972.555708 seconds.
+  Time since last request: 142.977613 seconds.
+  path: Assets/Scenes/BoulderRun/World_1/Lv1_3.unity
+  artifactKey: Guid(2d1ffc11b31c07c4abd9294a82e44a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BoulderRun/World_1/Lv1_3.unity using Guid(2d1ffc11b31c07c4abd9294a82e44a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5150fcc5924b2071c316bb997f3b69') in 0.027430 seconds 
+  Import took 0.032849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.459009 seconds.
+  path: Assets/Scenes/BoulderRun/World_1/Lv1_4.unity
+  artifactKey: Guid(03e31e90aa488184bb08d3477dfbeb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BoulderRun/World_1/Lv1_4.unity using Guid(03e31e90aa488184bb08d3477dfbeb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d54d940ce95f3bc047c86d36951c729') in 0.004497 seconds 
+  Import took 0.009750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.218760 seconds.
   path: Assets/Scenes/BoulderRun/World_1/Lv1_1.unity
   artifactKey: Guid(6687943fb7e68fb4db99d9e0d2954627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BoulderRun/World_1/Lv1_1.unity using Guid(6687943fb7e68fb4db99d9e0d2954627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d14369fecde9c4102d72f91dc06947e') in 0.112452 seconds 
-  Import took 0.117972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.513883 seconds.
-  path: Assets/Scenes/BoulderRun/World_1/Lv1_2.unity
-  artifactKey: Guid(982552c5c4ce86a45907dac4589fb4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BoulderRun/World_1/Lv1_2.unity using Guid(982552c5c4ce86a45907dac4589fb4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296edb2c7f232224ad37b1eb798b34ca') in 0.004132 seconds 
-  Import took 0.009432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 528.509843 seconds.
-  path: Assets/Scenes/BoulderRun/World_1/Lv1_2.unity
-  artifactKey: Guid(982552c5c4ce86a45907dac4589fb4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BoulderRun/World_1/Lv1_2.unity using Guid(982552c5c4ce86a45907dac4589fb4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d09885543624c1ae22d67ae1d8eaebb') in 0.004759 seconds 
-  Import took 0.010458 seconds .
+Start importing Assets/Scenes/BoulderRun/World_1/Lv1_1.unity using Guid(6687943fb7e68fb4db99d9e0d2954627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9cf157186cc9e81b032afe5967bd30') in 0.001936 seconds 
+  Import took 0.007152 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004261 seconds.
+Registered in 0.004244 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.968 seconds
+- Completed reload, in  0.910 seconds
 Domain Reload Profiling:
-	ReloadAssembly (969ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (910ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (807ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (768ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (287ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (289ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.0 MB.
+System memory in use after: 173.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4187.
+Total: 2.928300 ms (FindLiveObjects: 0.256100 ms CreateObjectMapping: 0.154300 ms MarkObjects: 2.503200 ms  DeleteObjects: 0.014000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004196 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.906 seconds
+Domain Reload Profiling:
+	ReloadAssembly (906ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (768ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (36ms)
 			SetupLoadedEditorAssemblies (293ms)
@@ -789,22 +602,22 @@ Domain Reload Profiling:
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (202ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (200ms)
 				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3556 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.7 MB.
-System memory in use after: 176.0 MB.
+Unloading 3557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.0 MB.
+System memory in use after: 173.3 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4272.
-Total: 3.226600 ms (FindLiveObjects: 0.284900 ms CreateObjectMapping: 0.216800 ms MarkObjects: 2.705700 ms  DeleteObjects: 0.018400 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4189.
+Total: 2.869200 ms (FindLiveObjects: 0.257000 ms CreateObjectMapping: 0.169800 ms MarkObjects: 2.428000 ms  DeleteObjects: 0.013600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -818,901 +631,39 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.022206 seconds.
-  path: Assets/Scenes/BoulderRun/World_1/Lv1_1.unity
-  artifactKey: Guid(6687943fb7e68fb4db99d9e0d2954627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BoulderRun/World_1/Lv1_1.unity using Guid(6687943fb7e68fb4db99d9e0d2954627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6139789e82164c1d33444e1d13dd32') in 0.027544 seconds 
-  Import took 0.032675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.574042 seconds.
-  path: Assets/Scenes/BoulderRun/World_1/Lv1_2.unity
-  artifactKey: Guid(982552c5c4ce86a45907dac4589fb4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BoulderRun/World_1/Lv1_2.unity using Guid(982552c5c4ce86a45907dac4589fb4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f99a7d3f0885d21adb6bd05bad63f1') in 0.001800 seconds 
-  Import took 0.006851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.513368 seconds.
-  path: Assets/Scenes/BoulderRun/World_1/Lv1_2.unity
-  artifactKey: Guid(982552c5c4ce86a45907dac4589fb4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BoulderRun/World_1/Lv1_2.unity using Guid(982552c5c4ce86a45907dac4589fb4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f67ec379c683d8b6c8184298fa37c1a') in 0.001773 seconds 
-  Import took 0.006727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.769052 seconds.
-  path: Assets/Scenes/BoulderRun/World_1/Lv1_3.unity
-  artifactKey: Guid(2d1ffc11b31c07c4abd9294a82e44a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BoulderRun/World_1/Lv1_3.unity using Guid(2d1ffc11b31c07c4abd9294a82e44a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b47b67c58cafd58883e0429a962c021') in 0.004383 seconds 
-  Import took 0.009444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 87.822618 seconds.
-  path: Assets/Scenes/BoulderRun/World_1/Lv1_3.unity
-  artifactKey: Guid(2d1ffc11b31c07c4abd9294a82e44a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BoulderRun/World_1/Lv1_3.unity using Guid(2d1ffc11b31c07c4abd9294a82e44a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5022f58671dc5cbbfae6082ca7116a6') in 0.004819 seconds 
-  Import took 0.010855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.612941 seconds.
-  path: Assets/Scenes/BoulderRun/World_1/Lv1_5.unity
-  artifactKey: Guid(f02e1d6dfc75f4c4a85b6a2a7ea80c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BoulderRun/World_1/Lv1_5.unity using Guid(f02e1d6dfc75f4c4a85b6a2a7ea80c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c13d9ec567bf69004ff77d1e355665') in 0.004613 seconds 
-  Import took 0.009822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 89.251945 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Textures/Assets_01_HD.tga
-  artifactKey: Guid(e89273453b2febd478e38e8cab8171fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Textures/Assets_01_HD.tga using Guid(e89273453b2febd478e38e8cab8171fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6137a39c27e8f61ad9402d19c2f20dcd') in 0.030704 seconds 
-  Import took 0.036370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Textures/Button 02 Grassland.png
-  artifactKey: Guid(23d45930a40d21347b9f84d12e528fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Textures/Button 02 Grassland.png using Guid(23d45930a40d21347b9f84d12e528fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a96727c5548038d4a492b201c3d4d5') in 0.016533 seconds 
-  Import took 0.021426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set01_b.psd
-  artifactKey: Guid(d4aeb1446d5d8f34483afe7ff4787e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set01_b.psd using Guid(d4aeb1446d5d8f34483afe7ff4787e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a97ce6df649eeafccbd92e6d81750b5') in 0.010203 seconds 
-  Import took 0.015439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Textures/Button 05 Lagoon.png
-  artifactKey: Guid(127b6e0bbd86d7647924090745561069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Textures/Button 05 Lagoon.png using Guid(127b6e0bbd86d7647924090745561069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f6261611967106f3e916f68e97aa70') in 0.008020 seconds 
-  Import took 0.013218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/bar_00_black50%.psd
-  artifactKey: Guid(51bb998f61713e948b23909956fbada5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/bar_00_black50%.psd using Guid(51bb998f61713e948b23909956fbada5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857b4ad848256c4309fe366a729246bd') in 0.007409 seconds 
-  Import took 0.012385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_b.psd
-  artifactKey: Guid(a5033cb0807bbec488bda1b92fb129fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_b.psd using Guid(a5033cb0807bbec488bda1b92fb129fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c096ac888fc48b14d302228fd32e5d98') in 0.007504 seconds 
-  Import took 0.012542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set05_a_shadow.psd
-  artifactKey: Guid(03773a2d8972ee748b37c8c3e757c060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set05_a_shadow.psd using Guid(03773a2d8972ee748b37c8c3e757c060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ed79eb3bc5485f3521ac83c8ad4631') in 0.007326 seconds 
-  Import took 0.012176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/background.psd
-  artifactKey: Guid(17f1f13f67b88f944bd2824cadce3824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/background.psd using Guid(17f1f13f67b88f944bd2824cadce3824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0393f565313f872330495b701a57e86') in 0.008024 seconds 
-  Import took 0.012908 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Textures/Button 06 Cave.png
-  artifactKey: Guid(bd26e8d8784178146a0816e21c70c151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Textures/Button 06 Cave.png using Guid(bd26e8d8784178146a0816e21c70c151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8641b5ed8dca57330268dbf444c4d6a9') in 0.007872 seconds 
-  Import took 0.012819 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/bar_02_c-01.psd
-  artifactKey: Guid(1ac5a8c31d6f79d4885e7460cfa72f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/bar_02_c-01.psd using Guid(1ac5a8c31d6f79d4885e7460cfa72f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4543ee347d268c2614911e73bf94aab') in 0.007772 seconds 
-  Import took 0.012851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set03_c.psd
-  artifactKey: Guid(c1c7584c557143e4caac00c871a98697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set03_c.psd using Guid(c1c7584c557143e4caac00c871a98697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705d32e40d57ea2f827c3b1b9e75b568') in 0.007805 seconds 
-  Import took 0.012986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_j.psd
-  artifactKey: Guid(35142750a4e20da46abb7ecdeb14e14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_j.psd using Guid(35142750a4e20da46abb7ecdeb14e14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78e291fc1e1edd899db0752376947a8') in 0.007483 seconds 
-  Import took 0.012592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/bar_02_d.psd
-  artifactKey: Guid(820aa3548236e524dad2a4031fc58ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/bar_02_d.psd using Guid(820aa3548236e524dad2a4031fc58ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512aea32e10d78742a3137d64640ef6f') in 0.007528 seconds 
-  Import took 0.012588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set01_e.psd
-  artifactKey: Guid(9bd2d0fe80e8919478f0eac2e53d964a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set01_e.psd using Guid(9bd2d0fe80e8919478f0eac2e53d964a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1b27c4cbe3a41d225370826a62b6ed') in 0.007359 seconds 
-  Import took 0.012594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set01_d.psd
-  artifactKey: Guid(f6b6ff2dedd3ed94d84bd65691175ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set01_d.psd using Guid(f6b6ff2dedd3ed94d84bd65691175ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41c02c34b6424ba91e2a6153a981a41') in 0.007702 seconds 
-  Import took 0.012629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_g.psd
-  artifactKey: Guid(8288dc7b1a8d5e74cb285527cbd87170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_g.psd using Guid(8288dc7b1a8d5e74cb285527cbd87170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0782da7c97371fad9faae4492ff0cf9') in 0.007457 seconds 
-  Import took 0.012290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_k.psd
-  artifactKey: Guid(d74487f0f7133a94199ce2106bcd2364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_k.psd using Guid(d74487f0f7133a94199ce2106bcd2364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3d79dc6ae0a4932ba13e2433718b77') in 0.007281 seconds 
-  Import took 0.012179 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Textures/Assets_01_UD.tga
-  artifactKey: Guid(61a89e1a0eb10a440b63e207c733e2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Textures/Assets_01_UD.tga using Guid(61a89e1a0eb10a440b63e207c733e2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5014f39eb07ac6c171eea54b7597941e') in 0.010685 seconds 
-  Import took 0.015734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set01_a.psd
-  artifactKey: Guid(5d403a5942d160e4380466f3c5b08093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set01_a.psd using Guid(5d403a5942d160e4380466f3c5b08093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95449b48fb440e2c88343c8a90b20974') in 0.007634 seconds 
-  Import took 0.012401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set02_c.psd
-  artifactKey: Guid(e13465292e3869d428fefc65bd6d1211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set02_c.psd using Guid(e13465292e3869d428fefc65bd6d1211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92452bb5ea18f8143ed5884adecd54d') in 0.007604 seconds 
-  Import took 0.013479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set05_a.psd
-  artifactKey: Guid(4b99677c07e70af429eb3ca890e98700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set05_a.psd using Guid(4b99677c07e70af429eb3ca890e98700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccca46ebef9ac37b49a016323a307d45') in 0.007624 seconds 
-  Import took 0.012796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/bar_02_a-01.psd
-  artifactKey: Guid(7f14dabf6dcff8e489c74af8f4e672d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/bar_02_a-01.psd using Guid(7f14dabf6dcff8e489c74af8f4e672d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32588c67972fb8853c240751e0c7dbca') in 0.008688 seconds 
-  Import took 0.014167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set01_c.psd
-  artifactKey: Guid(cdf8bce3a96292a4fa2426edcf96bb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set01_c.psd using Guid(cdf8bce3a96292a4fa2426edcf96bb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aea8aa4480197bc58f36ab655d4f77f') in 0.007524 seconds 
-  Import took 0.012796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_e.psd
-  artifactKey: Guid(a738e7f01a98c254ebc8a200fda207e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_e.psd using Guid(a738e7f01a98c254ebc8a200fda207e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca25e7252f3a9855b89987e3c8c35ba') in 0.007173 seconds 
-  Import took 0.012144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set02_d.psd
-  artifactKey: Guid(13a0140e530c087409fffe13d428896b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set02_d.psd using Guid(13a0140e530c087409fffe13d428896b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a915788977d0b81fcff3e5cb5456101a') in 0.007919 seconds 
-  Import took 0.012927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/bar_02_b-01.psd
-  artifactKey: Guid(0fce3bbe23f8c7847b98925329940be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/bar_02_b-01.psd using Guid(0fce3bbe23f8c7847b98925329940be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9768e87494a93829c9c5344809622d3') in 0.007384 seconds 
-  Import took 0.012442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set02_b.psd
-  artifactKey: Guid(b145d641f9e134040a43ab0076fcf28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set02_b.psd using Guid(b145d641f9e134040a43ab0076fcf28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429db272c78ab98f6cfaf8532cb99384') in 0.007537 seconds 
-  Import took 0.013022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_d.psd
-  artifactKey: Guid(4ad6aac782ee2a14cb48209f515ddac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_d.psd using Guid(4ad6aac782ee2a14cb48209f515ddac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7c4a8c966b46ca129d748490267667') in 0.007689 seconds 
-  Import took 0.012734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/First Fantasy Pack/GE Common Assets/Sprites/UIs/Button_01_Normal.psd
-  artifactKey: Guid(030d2792309742a4ea68afd0f4670651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GE Common Assets/Sprites/UIs/Button_01_Normal.psd using Guid(030d2792309742a4ea68afd0f4670651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ceae993845a637a1b014ff70e170f56') in 0.007458 seconds 
-  Import took 0.012472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Textures/Button 04 Wasteland.png
-  artifactKey: Guid(b2114122938f4244c92d4580e4a6b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Textures/Button 04 Wasteland.png using Guid(b2114122938f4244c92d4580e4a6b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02e1065f66adb57222fedf29404d62b') in 0.008515 seconds 
-  Import took 0.013678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Textures/Assets_01_SD.tga
-  artifactKey: Guid(95152655aed420f44ad52d9f1026c2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Textures/Assets_01_SD.tga using Guid(95152655aed420f44ad52d9f1026c2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72dcb71efba1ec3cad56bcd3a140b45b') in 0.009024 seconds 
-  Import took 0.014094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_i.psd
-  artifactKey: Guid(836514e6237ed4a479acb9a9c89695e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_i.psd using Guid(836514e6237ed4a479acb9a9c89695e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c01b7cfdc628b0ae6d7d98717a4b106') in 0.007845 seconds 
-  Import took 0.013342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set02_a.psd
-  artifactKey: Guid(713be9083ff56e044b24cfa71ba4a7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set02_a.psd using Guid(713be9083ff56e044b24cfa71ba4a7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc823347ddd792b846245a1768234fe') in 0.007425 seconds 
-  Import took 0.012543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Textures/Button 09 Arctic.png
-  artifactKey: Guid(186389ce6f4415448920bd84717c4fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Textures/Button 09 Arctic.png using Guid(186389ce6f4415448920bd84717c4fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d853860d4efb10cf67d9508076012c7') in 0.008285 seconds 
-  Import took 0.013437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Textures/Button 08 Particle.png
-  artifactKey: Guid(fff8680132d750d48ba1d5fb2b9aa8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Textures/Button 08 Particle.png using Guid(fff8680132d750d48ba1d5fb2b9aa8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd804c5c43efc131b8e617e4ff11a975') in 0.007687 seconds 
-  Import took 0.012716 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Textures/Button 01 Forest.png
-  artifactKey: Guid(62919ff8093a5774582c689b7ee8956c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Textures/Button 01 Forest.png using Guid(62919ff8093a5774582c689b7ee8956c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcf572ae26b548b0ea0aa1948a8dd8a') in 0.008338 seconds 
-  Import took 0.013190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/bar_01.psd
-  artifactKey: Guid(6a4f7c20af95dee4a90cc06cc545f5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/bar_01.psd using Guid(6a4f7c20af95dee4a90cc06cc545f5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f439e65b2710089cbb44cf9dd1455c5') in 0.008253 seconds 
-  Import took 0.013283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Textures/Button 03 Ruin.png
-  artifactKey: Guid(4476dc4d64812c54aa2a3ac90b010ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Textures/Button 03 Ruin.png using Guid(4476dc4d64812c54aa2a3ac90b010ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b732fff9d915c3b424317d7107bb984') in 0.007730 seconds 
-  Import took 0.012909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_h.psd
-  artifactKey: Guid(75e6a592261f9b34ab6c0776896b3cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_h.psd using Guid(75e6a592261f9b34ab6c0776896b3cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249826559516273a781b69ccf68c0d06') in 0.007604 seconds 
-  Import took 0.012608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/bar_close.psd
-  artifactKey: Guid(fdd42bb20f0815240bdb6c22ec9cffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/bar_close.psd using Guid(fdd42bb20f0815240bdb6c22ec9cffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0108b75460525da9176f259a484a45ce') in 0.007609 seconds 
-  Import took 0.012601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set03_b.psd
-  artifactKey: Guid(aec2b8d051d6722458962346ed52126a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set03_b.psd using Guid(aec2b8d051d6722458962346ed52126a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8caf97d43f96d44e4135b035e988e4a7') in 0.007459 seconds 
-  Import took 0.012494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_a.psd
-  artifactKey: Guid(9f2b4cb8157802e4fafaf8dd8c9c9259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_a.psd using Guid(9f2b4cb8157802e4fafaf8dd8c9c9259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23396d0c60d09114c164463d2fb78e43') in 0.007242 seconds 
-  Import took 0.012270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set03_d.psd
-  artifactKey: Guid(9cf9de4ca0dd8074295bbe1f30377af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set03_d.psd using Guid(9cf9de4ca0dd8074295bbe1f30377af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8dba92e43657ba72da12ae3a2d7bb74') in 0.007813 seconds 
-  Import took 0.012993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Bubble_01.tga
-  artifactKey: Guid(dcc09c8d4311d3f4c832042e67abbe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Bubble_01.tga using Guid(dcc09c8d4311d3f4c832042e67abbe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e580b8bb1ce3dfe0e3d2ca7828ace5') in 0.008199 seconds 
-  Import took 0.013676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set03_a.psd
-  artifactKey: Guid(b274b09f86e1c8b4d9b390570865a7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set03_a.psd using Guid(b274b09f86e1c8b4d9b390570865a7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82d39fa424192e570a8304b3dc682af') in 0.007589 seconds 
-  Import took 0.012711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set03_e.psd
-  artifactKey: Guid(475d88aa71a4a6e4180eb2184727871b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set03_e.psd using Guid(475d88aa71a4a6e4180eb2184727871b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11cf7c1b4699db7a13c547814e6c39b0') in 0.007843 seconds 
-  Import took 0.012965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_c.psd
-  artifactKey: Guid(aece09a2a411d25448ae221c95673ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_c.psd using Guid(aece09a2a411d25448ae221c95673ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5887e657fbd26ac6f68d32a1114a80') in 0.007933 seconds 
-  Import took 0.012846 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_f.psd
-  artifactKey: Guid(6d87f6ef90c02a943ade2c320909c49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GUI Animator/Common/Textures (Unity UI)/button_set04_f.psd using Guid(6d87f6ef90c02a943ade2c320909c49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061e44a5d3c97fd37eb7d170825dbc3f') in 0.007474 seconds 
-  Import took 0.012426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.864010 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/SnowFloor_01.tga
-  artifactKey: Guid(5cad6fe1cecf6b34e8fa0cdf1ec69259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/SnowFloor_01.tga using Guid(5cad6fe1cecf6b34e8fa0cdf1ec69259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1de7efd32a83bfb0bcb883584f491da') in 0.008171 seconds 
-  Import took 0.013509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.525880 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/PlanetaryEarth4k.hdr
-  artifactKey: Guid(3675d0c3c874f6b479bab57eb7e68c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/PlanetaryEarth4k.hdr using Guid(3675d0c3c874f6b479bab57eb7e68c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b438f637814430f4f2760dfab7fe954') in 0.072393 seconds 
-  Import took 0.079315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunset_01_Down.tga
-  artifactKey: Guid(b996d08896bc30b4f8578a18233fb0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunset_01_Down.tga using Guid(b996d08896bc30b4f8578a18233fb0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8369bce0c908408215a02de86b3edaa0') in 0.008114 seconds 
-  Import took 0.013226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Textures/Water_03_H.tga
-  artifactKey: Guid(37513f4f1929d4b458a39341150c39ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Textures/Water_03_H.tga using Guid(37513f4f1929d4b458a39341150c39ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c1ac8e7c4fa696f75a2a36dc3b723e') in 0.008590 seconds 
-  Import took 0.013652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Bonus/Arctic/Skybox/Skybox_right.tga
-  artifactKey: Guid(7ea88f7b22d927945ba655646f309872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Bonus/Arctic/Skybox/Skybox_right.tga using Guid(7ea88f7b22d927945ba655646f309872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bd5a3a7b131d47a45cb40ee8570db2') in 0.009191 seconds 
-  Import took 0.014007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Ray_04.tga
-  artifactKey: Guid(6b2d26f8737b50e4f81fe582aa2f9ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Ray_04.tga using Guid(6b2d26f8737b50e4f81fe582aa2f9ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed52f17ae4e3285dd0b5e66df4affd7') in 0.008079 seconds 
-  Import took 0.013089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunset_01_Up.tga
-  artifactKey: Guid(4b506d62d5ecf944b9458d018a0966fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunset_01_Up.tga using Guid(4b506d62d5ecf944b9458d018a0966fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2f4bf706cc6b3a3cfe4ea4956d6207') in 0.008107 seconds 
-  Import took 0.013320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Thunder_02.tga
-  artifactKey: Guid(19143453e10a0f04ea20f1d0f2432ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Thunder_02.tga using Guid(19143453e10a0f04ea20f1d0f2432ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8811b7007d1c906f130c604dcefe0ec7') in 0.008371 seconds 
-  Import took 0.013367 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunset_01_Back.tga
-  artifactKey: Guid(e55dde32344bfb44bafcccfb05e8d380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunset_01_Back.tga using Guid(e55dde32344bfb44bafcccfb05e8d380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35e28a17be7a22afdd84e29bf48164a') in 0.008190 seconds 
-  Import took 0.013149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/UnearthlyRed4k.hdr
-  artifactKey: Guid(a3de28b69b48944438c87668bd722ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/UnearthlyRed4k.hdr using Guid(a3de28b69b48944438c87668bd722ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b35098e842abade2e6e005c961b5a7') in 0.046014 seconds 
-  Import took 0.052640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/First Fantasy Pack/GE Common Assets/Sprites/Icons/SettingsButton.png
-  artifactKey: Guid(f6290cd4aba868648afc65bb6ce7038d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GE Common Assets/Sprites/Icons/SettingsButton.png using Guid(f6290cd4aba868648afc65bb6ce7038d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17108eb9e47af29f3ccbd14efaf5c7ac') in 0.007865 seconds 
-  Import took 0.013097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunny_01_Left.tga
-  artifactKey: Guid(d887a343496278e40b45b981040fdc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunny_01_Left.tga using Guid(d887a343496278e40b45b981040fdc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967e9459bfdcce97d0a89ccfb1c99108') in 0.008829 seconds 
-  Import took 0.013736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/First Fantasy Pack/GE Common Assets/Sprites/UIs/Toggle_Background.psd
-  artifactKey: Guid(2350b32d11e0b1b4c8c5a2fb13f8ee82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GE Common Assets/Sprites/UIs/Toggle_Background.psd using Guid(2350b32d11e0b1b4c8c5a2fb13f8ee82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e14784f98943c1e9c68958b268393d0') in 0.007387 seconds 
-  Import took 0.012242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Bonus/Arctic/Skybox/Skybox_front.tga
-  artifactKey: Guid(c7b55d54cfa5b944d8beb101c9c8c275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Bonus/Arctic/Skybox/Skybox_front.tga using Guid(c7b55d54cfa5b944d8beb101c9c8c275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc60f8beee97f38f2a532ff76ba0b6b') in 0.008183 seconds 
-  Import took 0.013057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Sparkles_01.tga
-  artifactKey: Guid(e7e13932da723ed43afdea9f77f95ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Sparkles_01.tga using Guid(e7e13932da723ed43afdea9f77f95ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd504ef66d6511cf1831d740d3e7d20') in 0.007395 seconds 
-  Import took 0.012332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/RainRipple_01.tga
-  artifactKey: Guid(2c2321b2f8f521f4d9b3e2fd51a60f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/RainRipple_01.tga using Guid(2c2321b2f8f521f4d9b3e2fd51a60f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece05e0fceb9bee5efb7aa9a673d8ee0') in 0.007721 seconds 
-  Import took 0.013436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Scenes/BoulderRun/World_1/Lv1_1/ReflectionProbe-0.exr
-  artifactKey: Guid(9a5dd09209706a345bb4f7b7d786cfde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BoulderRun/World_1/Lv1_1/ReflectionProbe-0.exr using Guid(9a5dd09209706a345bb4f7b7d786cfde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f12f420bd437fb5625cfa4f164a4b4') in 0.013770 seconds 
-  Import took 0.018841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/First Fantasy Pack/GE Common Assets/Sprites/UIs/Toggle_Checkmark.psd
-  artifactKey: Guid(e393f6e7b8ec7a94f9105d8ac5f47b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GE Common Assets/Sprites/UIs/Toggle_Checkmark.psd using Guid(e393f6e7b8ec7a94f9105d8ac5f47b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3557c1ec1f98ed8359b7fb84fcb097') in 0.007628 seconds 
-  Import took 0.012686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunny_01_Up.tga
-  artifactKey: Guid(cbdb0dd31d22a6c499ba8766e95d3ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunny_01_Up.tga using Guid(cbdb0dd31d22a6c499ba8766e95d3ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac17a2e071641afd127df456560bb53') in 0.008520 seconds 
-  Import took 0.013982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Raindrop_01.tga
-  artifactKey: Guid(f3d58cf86ef26d243b1898c169af2de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Raindrop_01.tga using Guid(f3d58cf86ef26d243b1898c169af2de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fdf66405d3f386381f6173b1d75878') in 0.007840 seconds 
-  Import took 0.012972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Ray_03.tga
-  artifactKey: Guid(ca31c174cd994cc44a91dc17b409bab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Ray_03.tga using Guid(ca31c174cd994cc44a91dc17b409bab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7623f292dd98e9d656165504a32e408a') in 0.008153 seconds 
-  Import took 0.013141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/UnderTheSea4k.hdr
-  artifactKey: Guid(26cddb2a3a1bc804d8e9ca09b109793a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/UnderTheSea4k.hdr using Guid(26cddb2a3a1bc804d8e9ca09b109793a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1ae6b936e86abd87494456f8606e16') in 0.044557 seconds 
-  Import took 0.051319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunny_01_Back.tga
-  artifactKey: Guid(30047ad88e83e17459b23eb13ca6aed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunny_01_Back.tga using Guid(30047ad88e83e17459b23eb13ca6aed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd68fe32fb3350a64a86d02919a196a9') in 0.008174 seconds 
-  Import took 0.013338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Bonus/Arctic/Skybox/Skybox_left.tga
-  artifactKey: Guid(fb7dc9898e3dd0548b02968924f3219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Bonus/Arctic/Skybox/Skybox_left.tga using Guid(fb7dc9898e3dd0548b02968924f3219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac17ab393de679f6fa94f022cfa5664') in 0.007777 seconds 
-  Import took 0.012800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Thunder_03.tga
-  artifactKey: Guid(9ecfe1b0d56c2a44a9883709160b683b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Thunder_03.tga using Guid(9ecfe1b0d56c2a44a9883709160b683b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6edf4652bceff4d5f5268e80d0a76cc') in 0.008314 seconds 
-  Import took 0.014028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunset_01_Front.tga
-  artifactKey: Guid(932d27508a310604f804a0fed184a488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunset_01_Front.tga using Guid(932d27508a310604f804a0fed184a488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f508346105aceece576d2d6fe4dd418') in 0.008054 seconds 
-  Import took 0.012936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Textures/Water_01.tga
-  artifactKey: Guid(0bac1fa2c5fbd464a9e8f61fe1691df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Textures/Water_01.tga using Guid(0bac1fa2c5fbd464a9e8f61fe1691df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e2e759c2ca3dbc60a55412a2148f51') in 0.009181 seconds 
-  Import took 0.014308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Smoke_01.tga
-  artifactKey: Guid(58d1768b53d68a44a87cf000d6092532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Smoke_01.tga using Guid(58d1768b53d68a44a87cf000d6092532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5695b2eef1e4dd585b483dfad3081547') in 0.008490 seconds 
-  Import took 0.013482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Ray_05.tga
-  artifactKey: Guid(e5cd860fc2f145340b6156268b7cc897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Ray_05.tga using Guid(e5cd860fc2f145340b6156268b7cc897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9b2cbdd97bad20ad3065790bc72c97') in 0.007884 seconds 
-  Import took 0.012872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Ring_04.tga
-  artifactKey: Guid(49115d30de6c9134dbfa49f179172d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Ring_04.tga using Guid(49115d30de6c9134dbfa49f179172d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2deb6dc25ca03c706f52f60ec5c3d3b0') in 0.008762 seconds 
-  Import took 0.013981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Ray_02.tga
-  artifactKey: Guid(2911c1a1ce572894298a80b0086ae3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Ray_02.tga using Guid(2911c1a1ce572894298a80b0086ae3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd451a482377e47b68ab1bf095d8f14f') in 0.008447 seconds 
-  Import took 0.013592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Textures/Poison_01.tga
-  artifactKey: Guid(b5a5b904ac324dc46a38cdd966bf221c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Textures/Poison_01.tga using Guid(b5a5b904ac324dc46a38cdd966bf221c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab4851882f42af998ffe2f90dfb45b1') in 0.008496 seconds 
-  Import took 0.013519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunny_01_Down.tga
-  artifactKey: Guid(89dff344c62bd6d47a76b0dad04be643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunny_01_Down.tga using Guid(89dff344c62bd6d47a76b0dad04be643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abb5719d65e148728dfa86adf0d6365') in 0.008009 seconds 
-  Import took 0.013141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Bonus/Arctic/Skybox/Skybox_back.tga
-  artifactKey: Guid(80425333ec5d19c40a2e8119ed8190a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Bonus/Arctic/Skybox/Skybox_back.tga using Guid(80425333ec5d19c40a2e8119ed8190a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7926d26c46e510168f894c828b7ef21b') in 0.009008 seconds 
-  Import took 0.013935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Bonus/Arctic/Skybox/Skybox_down.tga
-  artifactKey: Guid(7da2dd951582fc64e98316bb8494f5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Bonus/Arctic/Skybox/Skybox_down.tga using Guid(7da2dd951582fc64e98316bb8494f5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59791a40db15e6bc56ca53a715df9c58') in 0.008431 seconds 
-  Import took 0.013417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/First Fantasy Pack/GE Common Assets/Sprites/Icons/VerticlaScrollZoom.png
-  artifactKey: Guid(ebe1143cf83a3c54dafd3b9ce758ac65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/GE Common Assets/Sprites/Icons/VerticlaScrollZoom.png using Guid(ebe1143cf83a3c54dafd3b9ce758ac65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8e5d32c9e280f5462372c62badba02') in 0.008173 seconds 
-  Import took 0.013359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Smoke_02.tga
-  artifactKey: Guid(9900baf5aedeae9458a3efd6219b2534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Smoke_02.tga using Guid(9900baf5aedeae9458a3efd6219b2534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db234c315f21b617bbb87d986542dab5') in 0.008855 seconds 
-  Import took 0.013853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Bonus/Arctic/Skybox/Skybox_up.tga
-  artifactKey: Guid(dea5ef7cb9583344290b73ffb05dc2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Bonus/Arctic/Skybox/Skybox_up.tga using Guid(dea5ef7cb9583344290b73ffb05dc2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaac82230f8a9f9154117a1fd4de3005') in 0.008921 seconds 
-  Import took 0.014279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunny_01_Front.tga
-  artifactKey: Guid(c01d939e75f442240bb92d861755cd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunny_01_Front.tga using Guid(c01d939e75f442240bb92d861755cd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584644dffb991678ee8b6d6967004a84') in 0.008555 seconds 
-  Import took 0.013713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Ring_01.tga
-  artifactKey: Guid(7ced3ba47e6a9e941862164b41851280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Ring_01.tga using Guid(7ced3ba47e6a9e941862164b41851280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e004ff23bf94e9f81c39607e82b99c') in 0.008043 seconds 
-  Import took 0.013189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Water_01.tga
-  artifactKey: Guid(4a5f554fd9234944bb27915279ec95e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Water_01.tga using Guid(4a5f554fd9234944bb27915279ec95e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b12989930e2d5783b82008f550e91ee') in 0.008920 seconds 
-  Import took 0.014050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunny_01_Right.tga
-  artifactKey: Guid(6eb8fc219f7d5d34492457920ca48098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunny_01_Right.tga using Guid(6eb8fc219f7d5d34492457920ca48098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211a874e3c8a1aa0c9702cfa4982525f') in 0.008442 seconds 
-  Import took 0.013568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Thunder_01.tga
-  artifactKey: Guid(5641bbba0ace4cb428616f1ecd02d427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Thunder_01.tga using Guid(5641bbba0ace4cb428616f1ecd02d427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad11341b0ef398e05ad415a0203a56eb') in 0.008409 seconds 
-  Import took 0.013619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Textures/Poison_01_H.tga
-  artifactKey: Guid(c6501916fd3723344a2de9de5bfd24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Textures/Poison_01_H.tga using Guid(c6501916fd3723344a2de9de5bfd24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543440d865bfbf1700c847bb06a6274a') in 0.008573 seconds 
-  Import took 0.013563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Ring_02.tga
-  artifactKey: Guid(a931dbbaa39592f43962f4431e53722c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Ring_02.tga using Guid(a931dbbaa39592f43962f4431e53722c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924935201dd643bc15bded5584dd265b') in 0.008060 seconds 
-  Import took 0.013093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Textures/Water_02.tga
-  artifactKey: Guid(4613f07ea6a8c9b44a38ef4113f7ed72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Textures/Water_02.tga using Guid(4613f07ea6a8c9b44a38ef4113f7ed72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4a69fbdc130c25598e56dbad8616f0') in 0.009054 seconds 
-  Import took 0.014225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Sparkles_04.tga
-  artifactKey: Guid(afa983dd45e78724398c06d917d6088c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Sparkles_04.tga using Guid(afa983dd45e78724398c06d917d6088c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936afb21fe0097068f6c1b47ccba048e') in 0.007815 seconds 
-  Import took 0.013031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/SnowFlake_01.tga
-  artifactKey: Guid(98c3c005d40e8ff438ff5971df8a76ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/SnowFlake_01.tga using Guid(98c3c005d40e8ff438ff5971df8a76ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bfff8b06b6e9e3832f68aff9c046d1') in 0.008373 seconds 
-  Import took 0.013438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Stream_01.tga
-  artifactKey: Guid(e1d6d0ba7eb82ba4681be7b94c28421b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Stream_01.tga using Guid(e1d6d0ba7eb82ba4681be7b94c28421b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637da543251274937a6a74c998bb2396') in 0.007847 seconds 
-  Import took 0.013050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/SunlessCirruscover4k.hdr
-  artifactKey: Guid(99af420a4ccafa74abdc47436d8b0685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/SunlessCirruscover4k.hdr using Guid(99af420a4ccafa74abdc47436d8b0685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacbad8512a36c388b5ddeb13d5c8d68') in 0.028622 seconds 
-  Import took 0.035030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Sparkles_02.tga
-  artifactKey: Guid(7a6572dd770df1f4cb894d6c8f938bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Sparkles_02.tga using Guid(7a6572dd770df1f4cb894d6c8f938bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3d7d20ee8705ceefd106223efd8d74') in 0.007622 seconds 
-  Import took 0.012368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Textures/Water_03.tga
-  artifactKey: Guid(a53467a1ba73b79419528e08157ceadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Textures/Water_03.tga using Guid(a53467a1ba73b79419528e08157ceadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875081e44598625e2007ff82c57069c5') in 0.009511 seconds 
-  Import took 0.014384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunset_01_Right.tga
-  artifactKey: Guid(b4a3e53e127ea5549b75f755a4f5278e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Skyboxes/Sunset_01_Right.tga using Guid(b4a3e53e127ea5549b75f755a4f5278e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e6b84a1577c3f04245b0198cc3c236') in 0.008727 seconds 
-  Import took 0.014042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Sparkles_03.tga
-  artifactKey: Guid(85bda416ac7aa6743819f9eb1f9f371c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Environments/Media/Particles/Sparkles_03.tga using Guid(85bda416ac7aa6743819f9eb1f9f371c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97a316d1cadf003adc4f3383a92768f') in 0.007715 seconds 
-  Import took 0.012634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/First Fantasy Pack/First Fantasy for Mobile/Bonus/Arctic/Terrain/Arctic.asset
-  artifactKey: Guid(51b0795cd4105fb4db42d29e52f06d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Fantasy Pack/First Fantasy for Mobile/Bonus/Arctic/Terrain/Arctic.asset using Guid(51b0795cd4105fb4db42d29e52f06d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Received signal SIGSEGV
-Stack trace:
-0x00007ff60eba818a (Unity) CreateAssetToGUIDMappingV2
-0x00007ff60eb4d3f0 (Unity) AssetDatabase::CreateAssetToGUIDMapping
-0x00007ff60e0fa7d5 (Unity) SplatDatabase::CreateTerrainLayerAsset
-0x00007ff60e0f9490 (Unity) SplatDatabase::ConvertSplatsToTerrainLayers
-0x00007ff60e0f63ac (Unity) SplatDatabase::AwakeFromLoad
-0x00007ff60e1347a6 (Unity) TerrainData::AwakeFromLoad
-0x00007ff60dd327cf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
-0x00007ff60dd33162 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
-0x00007ff60dd332c3 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
-0x00007ff60dd05d31 (Unity) PersistentManager::IntegrateAllThreadedObjects
-0x00007ff60dd06877 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
-0x00007ff60dd09e72 (Unity) PersistentManager::ReadObject
-0x00007ff60eb45f41 (Unity) WritePreviews
-0x00007ff60eb428be (Unity) PreviewImporter::GenerateAssetData
-0x00007ff60ebe33e2 (Unity) ImportToObjects
-0x00007ff60ebe2458 (Unity) ImportAsset
-0x00007ff60eb7c998 (Unity) AssetImportWorker::Import
-0x00007ff60eba203a (Unity) <lambda_4a0f5575432e8e69ec585d1ca7897980>::operator()
-0x00007ff60ec295a2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff60ec2b700 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff60ec2ee7e (Unity) asio::io_service::run
-0x00007ff60ebcab9b (Unity) RunAssetImportWorkerClientV2
-0x00007ff60ebcabf0 (Unity) RunAssetImporterV2
-0x00007ff60e6723dd (Unity) Application::InitializeProject
-0x00007ff60eac7252 (Unity) WinMain
-0x00007ff610155752 (Unity) __scrt_common_main_seh
-0x00007ffd1bfd7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffd1d8e2651 (ntdll) RtlUserThreadStart
-
+  Time since last request: 56.151318 seconds.
+  path: Assets/Script/Map/FinishPoint.cs
+  artifactKey: Guid(5deebf90468d29444b0d92ee096772cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Map/FinishPoint.cs using Guid(5deebf90468d29444b0d92ee096772cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6795f022071b0aa34c0d2da7b945521') in 0.013161 seconds 
+  Import took 0.018224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.645982 seconds.
+  path: Assets/Scenes/BoulderRun/MainMenu.unity
+  artifactKey: Guid(6703dab97cb465c4a9ad50a87ca2b48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BoulderRun/MainMenu.unity using Guid(6703dab97cb465c4a9ad50a87ca2b48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84b2f8c3e7a5000dbe963608469b92b') in 0.033898 seconds 
+  Import took 0.039015 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 103.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4189.
+Total: 3.486600 ms (FindLiveObjects: 0.271900 ms CreateObjectMapping: 0.205500 ms MarkObjects: 2.997700 ms  DeleteObjects: 0.011000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
